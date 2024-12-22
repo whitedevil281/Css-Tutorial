@@ -1,0 +1,24 @@
+.box{
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 1px 1px 20px 1px #202020;
+    margin: 20px;
+}
+.box32{
+    /* border: 2px solid black; */
+    width: 50vw;
+    margin: 25px auto;
+    text-shadow: 7px 5px 3px #202020;
+    outline-offset: 5px;
+    border: 2px solid red;
+    outline: 2px solid black;
+    border-radius: 5px;
+}
+/*THe syntax for box and text shadow:
+box or text shadow: (x or horizontal)-offset (y or vertical)-offset blur spread color
+note :in text shadow spread does not works
+horizontal - left or right
+vertical - up and down*/
+
+/*Note: Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.*/
+/*https://www.w3schools.com/css/css_outline.asp*/

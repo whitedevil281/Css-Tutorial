@@ -1,0 +1,17 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.box{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+
+}
+.box1{
+    /* display: none; this remove the block  */
+    /* visibility: hidden; this also remove the block but its just get transparent the box space is still there  */
+    display: block;
+}

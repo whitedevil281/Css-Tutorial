@@ -1,0 +1,15 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+nav ul li{
+    border: 2px solid black;
+    background-color: aliceblue;
+    list-style: devanagari;
+    /* list-style-type:"❤️"; */
+    /* list-style: none; */
+    /* list-style-position: inside; */
+    list-style: dics inside url(https://media.tenor.com/_j6d4ba6ucMAAAAM/bbs-bbs-mewing.gif) ;
+    /* list-style-image: url(https://media.tenor.com/_j6d4ba6ucMAAAAM/bbs-bbs-mewing.gif); */
+    /* width: 80vh; */
+}

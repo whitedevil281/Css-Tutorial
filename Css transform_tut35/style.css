@@ -1,0 +1,25 @@
+.box{
+    width: 83px;
+    height: 83px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    transform: rotate(30deg);
+    /* transform: rotate(0.5turn); */
+    /* 1 turn = 360 degree
+    0.5 turn = 180 degree
+    0.25 turn = 90 degree */
+    /* transform: rotateX(85deg)0; */
+    /* transform: rotateY(80deg); */
+    /* transform: scale(1.5);
+    transform: skew(40deg); */
+    /* transform: translate(45%); */
+    transform-origin: 50% 50%;
+}
+.container{
+    border: 2px solid purple;
+    width: 100vw;
+    height: 50vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}

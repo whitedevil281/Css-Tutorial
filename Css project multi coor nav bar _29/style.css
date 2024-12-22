@@ -1,0 +1,35 @@
+:root {
+    --backgroundcolor: rgb(146, 204, 255);
+    --navcolor:rgba(15, 0, 180, 0.696);
+    --hoverr:rgb(255, 175, 175);
+    --border: lightgrey;
+    --liback:lightgrey;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backgroundcolor);
+}
+
+nav {
+    background-color: var(--navcolor);
+    padding: 25px;
+    border: 3px solid var(--border);
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {    
+    display: inline-block;
+    width: 80px;
+    padding: 10px;
+    background-color: var(--liback);
+}
+li:hover{
+        background-color: var(--hoverr);
+}

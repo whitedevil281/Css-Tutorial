@@ -1,0 +1,14 @@
+.container{
+    width: 455px;
+    height: 488px;
+    border: 2px solid black;
+    /* background-position:center center; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(https://media.istockphoto.com/id/155097073/photo/old-beech-tree-in-summer.jpg?s=612x612&w=0&k=20&c=cTuBEG1nIVC9FAlwSpIAbUxUc_QSUgUzjWDFzYA_8ek=); */
+}
+img{
+    width: 455px;
+    height: 488px;
+    object-fit: cover;
+    /* object-position: right; */
+}

@@ -1,0 +1,26 @@
+div{
+    color: purple;
+}
+/* .yeah{
+    color: red !important;}/*we if put important than it waill also overwrite inline selector*/
+ /*the specificity of this selector is 1(element selector) +10(class selector) = 11 ..so thsi style will apply as it has the highest specificty*/
+div.yeah{
+        color: red ;
+}
+.broo{
+    color: aqua;
+}
+.yoo{
+    color: green;
+}
+/* thw specificity of universal element is 0
+the specificity of id selector is 100
+the specifictyof class and atribute selecotr and pseudo selector(a:hover)is 10
+the specificity of element selector is 1
+the sepcificty of inline selector is 100 
+these value is use to calculaate and identify which style will aplly on the element and also the order decides after the value */
+/* quiz: */
+/* specificity of this element is 1(element) + 10(class) +10(class) +10(atribute) +10(pesudo) = 41 */
+span.class.eshwarred[heref]:hover{
+    color:red;
+}

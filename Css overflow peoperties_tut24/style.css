@@ -1,0 +1,11 @@
+.box{
+    border: 2px solid black;
+    width: 50vw;
+    height: 50vh;
+    /* overflow: auto;if the content will overflow it will add a scroll bar otherwise not  */
+    /* white-space: nowrap;it adds a horizental scrollbar and the content will not fall downwards */
+    /* text-overflow: ellipsis; */
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+    overflow: auto hidden;
+}

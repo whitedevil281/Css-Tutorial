@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 12px;
+}
+ /* vw = width
+vh = view height
+em = 2em * initial vale like 16px = 36px
+rem = 2rem * root(html) value 12 = 24px */
+ .box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    height: 20vh;
+    margin: auto;
+    background-color: aliceblue;
+}
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vw;
+    margin: 20px auto;
+    /* height: 70vh; */
+    min-height: 70vh;/*sets a min height kitna bhi content ho par starting me itna min height rahega badd me apne app expand hote jayega overflow nhi hoga*/ 
+    /* font-size: 16px; */
+    background-color: aliceblue;
+}
+.container p{
+    font-size: 2rem;
+}
+.mycount{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 80vmax;/*it is vw in this case as in this device max is width and in phone it will be vh*/
+    background-color: aliceblue;
+    margin: 23px auto;
+}
